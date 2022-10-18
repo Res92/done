@@ -1,5 +1,4 @@
-import pyperclip
-import random as r
+import pyperclip; import random as r
 
 with open('a.txt', 'r', encoding='utf-8') as f:
     l = f.read()
