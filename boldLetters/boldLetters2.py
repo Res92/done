@@ -1,11 +1,9 @@
 import pyperclip; import random as r
 
-with open('a.txt', 'r', encoding='utf-8') as f:
-    l = f.read()
-    splt = l.split(' ')
-    radBold = 0
-    s = ''
+with open('boldLetters/a.txt', 'r', encoding='utf-8') as f:
+    l = f.read(); splt = l.split(' ')
 
+    s = ''
     for i in range(len(splt)):
         lenLett = len(splt[i]); #print(splt[i])
         radBold = r.randrange(lenLett)
