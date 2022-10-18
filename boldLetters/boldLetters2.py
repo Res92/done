@@ -1,4 +1,3 @@
-from secrets import randbelow
 import pyperclip
 import random as r
 
